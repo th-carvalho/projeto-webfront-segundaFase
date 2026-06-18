@@ -1,11 +1,326 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB"
+      crossorigin="anonymous"
+    />
+    <title>Home</title>
+  </head>
+  <body>
+    <!-- Inicio do Menu--><nav class="navbar navbar-expand-lg">
+  <div class="container-fluid">
+    <a class="navbar-brand"><img src="img/logotipo.png" alt=""></a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#">Inicio</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="somos.html">Quem somos</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Serviços
+          </a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="#">Med Hub - App</a></li>
+            <li><a class="dropdown-item" href="#">Med Hub - Vagas</a></li>
+            <li><hr class="dropdown-divider"></li>
+            <li><a class="dropdown-item" href="#">Med Hub - Contabilidade</a></li>
+          </ul>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" aria-disabled="true">Contato</a>
+        </li>
+      </ul>
     
-</body>
+    </div>
+  </div>
+</nav>
+    
+    <!--Final do Menu-->
+
+    <!--Inicio do Carrossel-->
+    <div
+      id="carouselExampleAutoplaying"
+      class="carousel slide"
+      data-bs-ride="carousel"
+    >
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img
+            src="img/medico-carrosel1.jpeg"
+            class="d-block w-100"
+            alt="Médico"
+          />
+        </div>
+
+        <div class="carousel-item">
+          <img
+            src="img/medico-carrosel2.png"
+            class="d-block w-100"
+            alt="Hospital"
+          />
+        </div>
+
+        <div class="carousel-item">
+          <img
+            src="img/medico-carrosel3.png"
+            class="d-block w-100"
+            alt="Consulta"
+          />
+        </div>
+      </div>
+
+      <button
+        class="carousel-control-prev"
+        type="button"
+        data-bs-target="#carouselExampleAutoplaying"
+        data-bs-slide="prev"
+      >
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Anterior</span>
+      </button>
+
+      <button
+        class="carousel-control-next"
+        type="button"
+        data-bs-target="#carouselExampleAutoplaying"
+        data-bs-slide="next"
+      >
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Próximo</span>
+      </button>
+    </div>
+    <!--Fim do Carrossel-->
+
+    <!--Inicio do Grid-->
+    <div class="container">
+      <div class="row">
+        <div class="col stat-card">
+          <h2>80 mil+</h2>
+          <p>Clientes Satisfeitos</p>
+        </div>
+
+        <div class="col stat-card">
+          <h2>200 mil+</h2>
+          <p>Downloads</p>
+        </div>
+
+        <div class="col stat-card">
+          <h2>50 mil+</h2>
+          <p>Hospitais</p>
+        </div>
+      </div>
+    </div>
+    <!--Fim do Grid-->
+
+    <!--Inicio do card de serviços-->
+    <div class="secao-servicos">
+
+    <!-- Lado Esquerdo -->
+    <div class="card-info">
+        <h1>Nossos produtos<br>e serviços</h1>
+
+        <p>
+            Soluções que facilitam e otimizam a rotina dos
+            profissionais da área da saúde.
+        </p>
+    </div>
+
+    <!-- Lado Direito -->
+    <div class="cards-servicos">
+
+        <div class="row g-4">
+
+            <div class="col-md-6">
+                <div class="service-card card-app">
+                    <h2>MedHub App</h2>
+                    <p>
+                        Soluções que facilitam e otimizam a rotina dos
+                        profissionais da área da saúde.
+                    </p>
+                    <a href="#" class="btn-service">Saiba mais</a>
+                </div>
+            </div>
+
+            <div class="col-md-6">
+                <div class="service-card card-vagas">
+                    <h2>MedHub Vagas</h2>
+                    <p>
+                        Conectando profissionais da saúde a plantões
+                        e vagas de forma rápida e gratuita.
+                    </p>
+                    <a href="#" class="btn-service">Saiba mais</a>
+                </div>
+            </div>
+
+            <div class="col-12">
+                <div class="service-card card-contabilidade">
+                    <h2>MedHub Contabilidade</h2>
+                    <p>
+                        Gestão fiscal e tributária especializada para
+                        profissionais da saúde.
+                    </p>
+                    <a href="#" class="btn-service">Saiba mais</a>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+
+</div>
+    <!--Fim do Card de Serviços-->
+        
+</div>
+    <hr />
+    <!--Inicio do Card com texto do clientes-->
+<h1 style="text-align: center">O que os Clientes Dizem</h1>
+
+<div class="container my-5">
+  <div class="row">
+
+    <div class="col-md-4">
+      <div class="card shadow-sm">
+        <div class="card-body">
+          <p class="card-text">
+            "A plataforma facilitou muito a gestão da nossa clínica. Hoje conseguimos organizar consultas e prontuários de forma rápida e segura."
+          </p>
+          <h6 class="card-title">Ana Paula Silva</h6>
+          <small class="text-muted">Gestora Hospitalar</small>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-md-4">
+      <div class="card shadow-sm">
+        <div class="card-body">
+          <p class="card-text">
+            "O aplicativo é intuitivo e prático. Conseguimos reduzir o tempo gasto em processos administrativos."
+          </p>
+          <h6 class="card-title">Carlos Mendes</h6>
+          <small class="text-muted">Administrador de Clínica</small>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-md-4">
+      <div class="card shadow-sm">
+        <div class="card-body">
+          <p class="card-text">
+            "Excelente solução para profissionais da saúde. O suporte é rápido e a experiência do usuário é muito boa."
+          </p>
+          <h6 class="card-title">Mariana Costa</h6>
+          <small class="text-muted">Médica</small>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</div>
+
+  <!--Card de Entre em contato-->
+  <div class="card-contato">
+  <div class="card-body">
+    <h5 class="card-title">Entre em Contato</h5>
+    <p class="card-text">Preencha o formulário com seus dados e breve nosso consultor entrará em contato.</p>
+  </div>
+</div>
+
+<!--Inicio do Formulario-->
+<form>
+  <div class = "mb-3">
+    <label for="" class="form-label">Nome Completo</label>
+    <input type="nome" class="form-control" >
+  </div>
+  <div class="mb-3">
+    <label for="exampleInputEmail1" class="form-label">Email address</label>
+    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+    <div id="emailHelp" class="form-text"></div>
+  </div>
+  <div class="mb-3">
+    <label for="exampleInputPassword1" class="form-label">Password</label>
+    <input type="password" class="form-control" id="exampleInputPassword1">
+  </div>
+  <div class="mb-3 form-check">
+    <input type="checkbox" class="form-check-input" id="exampleCheck1">
+    <label class="form-check-label" for="exampleCheck1">Check me out</label>
+  </div>
+  <button type="submit" class="btn btn-primary">Enviar </button>
+</form>
+
+<footer class="footer">
+    <div class="container">
+
+        <div class="row">
+
+            <!-- Logo e descrição -->
+            <div class="col-md-4">
+                <h2 class="logo-footer">MEDHUB</h2>
+
+                <p>
+                    Soluções que facilitam e otimizam a rotina
+                    dos profissionais da área da saúde.
+                </p>
+            </div>
+
+            <!-- Navegação -->
+            <div class="col-md-3">
+                <h4>Navegue</h4>
+
+                <ul>
+                    <li><a href="#">Início</a></li>
+                    <li><a href="#">Quem Somos</a></li>
+                    <li><a href="#">Contato</a></li>
+                    <li><a href="#">Blog</a></li>
+                </ul>
+            </div>
+
+            <!-- Serviços -->
+            <div class="col-md-3">
+                <h4>Produtos e Serviços</h4>
+
+                <ul>
+                    <li>Medhub App</li>
+                    <li>MedHub Contabilidade</li>
+                    <li>MedHub Vagas</li>
+                </ul>
+            </div>
+
+            <!-- Contato -->
+            <div class="col-md-2">
+                <h4>Contato</h4>
+
+                <p>(83) 99999-9999</p>
+                <p>contato@medhub.com</p>
+
+                <h4>Redes Sociais</h4>
+                <p>Instagram - MedHub</p>
+                <p>X - MedHub</p>
+                <p>Tiktok - MedHub</p>
+            </div>
+
+        </div>
+
+        <hr>
+
+        <div class="text-center">
+            <p>© 2026 MEDHUB</p>
+        </div>
+
+    </div>
+</footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
 </html>
