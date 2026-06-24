@@ -1,4 +1,3 @@
-
 body {
 font-family: Arial, sans-serif;
 color: #212529;
@@ -232,4 +231,213 @@ transition: 0.3s;
 
 .footer .btn-whatsapp:hover {
 background-color: #1aa179;
+}
+
+
+/* ========================================
+   QUEM SOMOS - somos.html
+   ======================================== */
+
+/* HERO */
+
+.hero-somos {
+  background-color: #eef9f3;
+  padding: 80px 0;
+}
+
+.hero-somos h1 {
+  font-size: 2.8rem;
+  font-weight: 800;
+  color: #103a5c;
+  line-height: 1.2;
+  margin-bottom: 20px;
+}
+
+.hero-somos p {
+  font-size: 1.05rem;
+  max-width: 480px;
+  margin-bottom: 32px;
+}
+
+.hero-somos-img {
+  width: 100%;
+  border-radius: 16px;
+  object-fit: cover;
+  max-height: 380px;
+}
+
+.btn-hero {
+  background-color: #0fbe52;
+  color: #ffffff;
+  font-weight: 600;
+  padding: 12px 28px;
+  border-radius: 8px;
+  text-decoration: none;
+  transition: background-color 0.3s;
+  display: inline-block;
+}
+
+.btn-hero:hover {
+  background-color: #0ca347;
+  color: #ffffff;
+}
+
+/* QUEM SOMOS */
+
+.secao-quem-somos {
+  padding: 80px 0;
+  background-color: #ffffff;
+}
+
+.secao-quem-somos h2 {
+  font-size: 2.2rem;
+  font-weight: 800;
+  color: #103a5c;
+  margin-bottom: 20px;
+}
+
+.img-secao {
+  width: 100%;
+  border-radius: 16px;
+  object-fit: cover;
+  max-height: 420px;
+}
+
+.texto-destaque {
+  font-weight: 700;
+  color: #103a5c !important;
+}
+
+/* NÚMEROS */
+
+.secao-numeros {
+  background-color: #f8fafc;
+  padding: 50px 20px;
+  border-radius: 12px;
+  margin: 40px 0;
+}
+
+.numeros-label {
+  font-size: 1.8rem;
+  font-weight: 800;
+  color: #103a5c;
+}
+
+.stat-card-somos {
+  padding: 20px 10px;
+}
+
+.stat-card-somos h2 {
+  color: #0fbe52;
+  font-size: 2.2rem;
+  font-weight: 900;
+  margin-bottom: 4px;
+}
+
+.stat-card-somos p {
+  font-size: 0.85rem;
+  font-weight: 500;
+  text-transform: uppercase;
+}
+
+/* BANNER CTA */
+
+.banner-cta {
+  border-radius: 16px;
+  background: linear-gradient(135deg, #103a5c 0%, #0fbe52 100%);
+  padding: 60px 5%;
+  position: relative;
+  overflow: hidden;
+}
+
+.banner-cta::after {
+  content: '';
+  position: absolute;
+  right: -40px;
+  top: -40px;
+  width: 420px;
+  height: 420px;
+  background-image: radial-gradient(circle, rgba(255,255,255,0.18) 1.5px, transparent 1.5px);
+  background-size: 18px 18px;
+  border-radius: 50%;
+}
+
+.banner-cta h2 {
+  color: #ffffff;
+  font-size: 2rem;
+  font-weight: 800;
+  margin-bottom: 16px;
+  max-width: 480px;
+  position: relative;
+  z-index: 1;
+}
+
+.banner-cta p {
+  color: rgba(255, 255, 255, 0.85) !important;
+  max-width: 520px;
+  margin-bottom: 32px;
+  position: relative;
+  z-index: 1;
+}
+
+.btn-banner {
+  background-color: #ffffff;
+  color: #103a5c;
+  font-weight: 700;
+  padding: 12px 28px;
+  border-radius: 8px;
+  text-decoration: none;
+  transition: background-color 0.3s;
+  display: inline-block;
+  position: relative;
+  z-index: 1;
+}
+
+.btn-banner:hover {
+  background-color: #eef9f3;
+  color: #103a5c;
+}
+
+/* POR QUE ESCOLHER */
+
+.secao-diferenciais {
+  padding: 80px 0;
+  background-color: #ffffff;
+}
+
+.secao-diferenciais h2 {
+  font-size: 2rem;
+  font-weight: 800;
+  color: #103a5c;
+  margin-bottom: 32px;
+}
+
+.diferencial-item {
+  display: flex;
+  align-items: flex-start;
+  gap: 16px;
+  margin-bottom: 28px;
+}
+
+.diferencial-icone {
+  width: 48px;
+  height: 48px;
+  background-color: #eef9f3;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  font-size: 1.4rem;
+}
+
+.diferencial-item h5 {
+  color: #103a5c;
+  font-weight: 700;
+  margin-bottom: 4px;
+}
+
+.diferencial-item p {
+  font-size: 0.9rem;
+  margin: 0;
 }
