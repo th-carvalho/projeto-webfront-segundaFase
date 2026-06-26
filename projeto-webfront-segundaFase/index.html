@@ -32,15 +32,17 @@
             Serviços
           </a>
           <ul class="dropdown-menu">
-            <li><a class="dropdown-item" href="#">Med Hub - App</a></li>
-            <li><a class="dropdown-item" href="#">Med Hub - Vagas</a></li>
-            <li><hr class="dropdown-divider"></li>
-            <li><a class="dropdown-item" href="#">Med Hub - Contabilidade</a></li>
+            <li><a class="dropdown-item" href="servicos.html">Med Hub - App</a></li>
+            <li><a class="dropdown-item" href="servicos.html">Med Hub - Vagas</a></li>
+            <li><a class="dropdown-item" href="servicos.html">Med Hub - Contabilidade</a></li>
           </ul>
         </li>
         <li class="nav-item">
           <a class="nav-link" aria-disabled="true">Contato</a>
         </li>
+
+         <button type="submit" class="profi-button">Area do Profissional</button>
+</form>
       </ul>
     
     </div>
@@ -239,25 +241,48 @@
 
 <!--Inicio do Formulario-->
 <form>
-  <div class = "mb-3">
-    <label for="" class="form-label">Nome Completo</label>
-    <input type="nome" class="form-control" >
-  </div>
   <div class="mb-3">
-    <label for="exampleInputEmail1" class="form-label">Email address</label>
-    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
-    <div id="emailHelp" class="form-text"></div>
+    <label for="nome" class="form-label">Nome Completo</label>
+    <input type="text" class="form-control" id="nome" placeholder="Nome">
   </div>
+
+  <div class="row mb-3">
+    <div class="col-md-6">
+      <label for="telefone" class="form-label">Telefone</label>
+      <input type="tel" class="form-control" id="telefone" placeholder="(DDD) + WhatsApp">
+    </div>
+
+    <div class="col-md-6">
+      <label for="email" class="form-label">E-mail</label>
+      <input type="email" class="form-control" id="email" placeholder="E-mail">
+    </div>
+  </div>
+
+  <div class="row mb-3">
+    <div class="col-md-6">
+      <label for="profissao" class="form-label">Qual sua profissão?</label>
+      <input type="text" class="form-control" id="profissao" placeholder="Qual sua profissão?">
+    </div>
+
+    <div class="col-md-6">
+      <label for="residente" class="form-label">Você é médico residente?</label>
+      <select class="form-select" id="residente">
+        <option selected disabled>Selecione</option>
+        <option>Sim</option>
+        <option>Não</option>
+      </select>
+    </div>
+  </div>
+
   <div class="mb-3">
-    <label for="exampleInputPassword1" class="form-label">Password</label>
-    <input type="password" class="form-control" id="exampleInputPassword1">
+    <label for="cnpj" class="form-label">Nos conte como você pretende atuar com seu CNPJ?</label>
+    <textarea class="form-control" id="cnpj" rows="5" placeholder="Digite aqui..."></textarea>
   </div>
-  <div class="mb-3 form-check">
-    <input type="checkbox" class="form-check-input" id="exampleCheck1">
-    <label class="form-check-label" for="exampleCheck1">Check me out</label>
-  </div>
-  <button type="submit" class="btn btn-primary">Enviar </button>
+
+  <button type="submit" class="btn btn-primary">Enviar</button>
 </form>
+
+<!--Fim do formulario-->
 
 <footer class="footer">
     <div class="container">
@@ -279,10 +304,9 @@
                 <h4>Navegue</h4>
 
                 <ul>
-                    <li><a href="#">Início</a></li>
-                    <li><a href="#">Quem Somos</a></li>
-                    <li><a href="#">Contato</a></li>
-                    <li><a href="#">Blog</a></li>
+                    <li><a href="index.html">Início</a></li>
+                    <li><a href="somos.html">Quem Somos</a></li>
+                    <li><a href="contato.html">Contato</a></li>
                 </ul>
             </div>
 
@@ -291,9 +315,9 @@
                 <h4>Produtos e Serviços</h4>
 
                 <ul>
-                    <li>Medhub App</li>
-                    <li>MedHub Contabilidade</li>
-                    <li>MedHub Vagas</li>
+                    <a href="servicos.html"><li>MedHub App</li></a>
+                    <a href="servicos.html"><li>MedHub Vagas</li></a>
+                    <a href="servicos.html"><li>MedHub Contabilidada</li></a>
                 </ul>
             </div>
 
