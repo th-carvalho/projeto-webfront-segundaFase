@@ -101,6 +101,7 @@ flex: 1 1 280px;
 .card-info h1 {
 color: #103a5c;
 font-size: 2rem;
+text-align: center;
 margin-bottom: 16px;
 }
 
