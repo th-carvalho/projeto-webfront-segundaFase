@@ -441,3 +441,190 @@ background-color: #1aa179;
   font-size: 0.9rem;
   margin: 0;
 }
+
+/* AREA PROFISSIONAL*/
+/* Cabecalho do Gestor */
+.cabecalho-gestor {
+  background-color: #103a5c;
+  padding: 40px 0;
+  margin-bottom: 30px;
+}
+ 
+.cabecalho-gestor h1 {
+  color: #ffffff;
+  margin-bottom: 6px;
+}
+ 
+.cabecalho-gestor p {
+  color: rgba(255, 255, 255, 0.75);
+  margin: 0;
+}
+ 
+/* Indicadores */
+.indicador-card {
+  background-color: #ffffff;
+  border-radius: 8px;
+  padding: 18px;
+  text-align: center;
+  border-top: 4px solid #1b5e8c;
+}
+ 
+.indicador-card h2 {
+  color: #103a5c;
+  font-size: 1.8rem;
+  font-weight: 800;
+  margin-bottom: 4px;
+}
+ 
+.indicador-card p {
+  font-size: 0.85rem;
+  margin: 0;
+}
+ 
+.borda-azul {
+  color: #1b5e8c;
+}
+ 
+.borda-verde {
+  color: #2ead6b;
+}
+ 
+.borda-laranja {
+  border-top-color: #e69b1c;
+}
+ 
+.borda-azul-claro {
+  border-top-color: #3d8fc4;
+}
+ 
+/* Painel (caixa generica) */
+.painel {
+  background-color: #ffffff;
+  border-radius: 8px;
+  padding: 20px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.08);
+}
+ 
+.painel-cabecalho {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 14px;
+}
+ 
+.painel-cabecalho h3 {
+  color: #103a5c;
+  font-size: 1.1rem;
+  margin: 0;
+}
+ 
+/* Tabela de escala */
+.tabela-escala {
+  margin-bottom: 0;
+}
+ 
+/* Tags de setor */
+.tag {
+  font-size: 0.75rem;
+  font-weight: 600;
+  padding: 3px 10px;
+  border-radius: 12px;
+}
+ 
+.tag-uti {
+  background-color: #e3eaf0;
+  color: #103a5c;
+}
+ 
+.tag-ps {
+  background-color: #fbe2e2;
+  color: #c0392b;
+}
+ 
+.tag-card {
+  background-color: #ece1f9;
+  color: #6c3fc5;
+}
+ 
+.tag-ped {
+  background-color: #e8f7ef;
+  color: #1e8c56;
+}
+ 
+/* Status do plantao */
+.status {
+  font-size: 0.75rem;
+  font-weight: 600;
+  padding: 3px 10px;
+  border-radius: 12px;
+}
+ 
+.status-verde {
+  background-color: #e8f7ef;
+  color: #1e8c56;
+}
+ 
+.status-laranja {
+  background-color: #fdf0dc;
+  color: #b5750e;
+}
+ 
+.status-vermelho {
+  background-color: #fbe2e2;
+  color: #c0392b;
+}
+ 
+.status-cinza {
+  background-color: #e3eaf0;
+  color: #5a6b7b;
+}
+ 
+/* Trocas pendentes */
+.troca {
+  border-bottom: 1px solid #e3eaf0;
+  padding: 12px 0;
+}
+ 
+.troca:last-child {
+  border-bottom: none;
+}
+ 
+.troca p {
+  color: #1a2b3c;
+  margin-bottom: 2px;
+  font-size: 0.9rem;
+}
+ 
+.troca small {
+  color: #5a6b7b;
+}
+ 
+.troca-botoes {
+  margin-top: 8px;
+}
+ 
+.troca-botoes .btn {
+  margin-right: 6px;
+}
+ 
+/* Mural de avisos */
+.aviso {
+  border-bottom: 1px solid #e3eaf0;
+  padding: 12px 0;
+  font-size: 0.88rem;
+  color: #1a2b3c;
+}
+ 
+.aviso:last-child {
+  border-bottom: none;
+}
+ 
+.aviso-urgente {
+  color: #c0392b;
+}
+ 
+.aviso-data {
+  color: #5a6b7b;
+  font-size: 0.75rem;
+  margin-top: 4px;
+}

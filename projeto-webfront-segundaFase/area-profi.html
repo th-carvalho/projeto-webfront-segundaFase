@@ -1,0 +1,280 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB"
+      crossorigin="anonymous"
+    />
+    <title>Home</title>
+  </head>
+  <body>
+    <!-- Inicio do Menu-->
+     <nav class="navbar navbar-expand-lg">
+  <div class="container-fluid">
+    <a class="navbar-brand"><img src="img/logotipo.png" alt=""></a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="index.html">Inicio</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="somos.html">Quem somos</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Serviços
+          </a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="servicos.html">Med Hub - App</a></li>
+            <li><a class="dropdown-item" href="servicos.html">Med Hub - Vagas</a></li>
+            <li><a class="dropdown-item" href="servicos.html">Med Hub - Contabilidade</a></li>
+          </ul>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" aria-disabled="true" href="contato.html">Contato</a>
+        </li>
+
+         <button type="submit" class="profi-button">Area do Profissional</button>
+</form>
+      </ul>
+      </div>
+  </div>
+</nav>
+
+<div>
+    <div class = "container">
+        <h1>painel do Gestor</h1>
+        <p>Hospital das Clinicas - Acompanha a escala e as solicitações da equipe</p>
+    </div>
+</div>
+
+<!--Inicio dos indicadores-->
+
+<div class="container">
+    <div class="row g-3 indicadores">
+        <div class="indicador-card borda azul">
+            <h2>30</h2>
+            <p>Medicos na Escala</p>
+        </div>
+    </div>
+
+
+
+    <div class="col-6 col-md-3">
+        <div class="indicador-card borda-verde">
+            <h2>12</h2>
+            <p>Chenk-ins Hoje</p>
+        </div>
+    </div>
+
+
+<div class="col-6 col-md-3">
+    <div class="indicador-card borda-laranja">
+        <h2>3</h2>
+        <p>Trocas Pendentes</p>
+    </div>
+</div>
+
+<div class="col-6 col-md-3">
+    <div class="indicador-card borda-azul-claro">
+        <h2>5</h2>
+        <p>Setores Ativos</p>
+    </div> 
+
+</div>
+</div>
+<!--Fim dos Indicadores -->
+
+<!--Inicio da escala da semana e coluna lateral-->
+<div class="container">
+    <div class ="row g-4 mt-2">
+        <div class="painel">
+            <div class = "painel-cabecalho">
+                <h3>Escala da Semana</h3>
+            </div>
+
+            <table class="tabela-escala">
+                <tr>
+                    <th>Medico</th>
+                    <th>Setor</th>
+                    <th>Turno</th>
+                    <th>Status</th>
+                </tr>
+            </table>
+
+            <table>
+                 <td>Dr. Vinicius</td>
+                  <td><span class=" tag-uti">Ortopedista</span></td>
+                  <td>07h - 19h</td>
+                  <td><span class=" status-verde">Check-in feito</span></td>
+                </tr>
+                <tr>
+                  <td>Dra. Thiago</td>
+                  <td><span class="tag tag-ps">Pronto-Socorro</span></td>
+                  <td>19h - 07h</td>
+                  <td><span class=" status-laranja">Aguardando</span></td>
+                </tr>
+                <tr>
+                  <td>Dr. Murilo</td>
+                  <td><span class="tag-card">Cardiologia</span></td>
+                  <td>07h - 19h</td>
+                  <td><span class="status-verde">Check-in feito</span></td>
+                </tr>
+                <tr>
+                  <td>Dr. João Pedro</td>
+                  <td><span class="tag-ped">Pediatria</span></td>
+                  <td>07h - 19h</td>
+                  <td><span class=" status-vermelho">Faltou</span></td>
+                </tr>
+                <tr>
+                  <td>Dr. Gabirel</td>
+                  <td><span class="tag-uti">UTI</span></td>
+                  <td>19h - 07h</td>
+                  <td><span class="status-cinza">Escalado</span></td>
+            </table>
+        </div>
+    </div>
+</div>
+
+<div class="col-lg-5">
+
+    <!--Trocas pendentes-->
+    <div class="painel mb-4">
+        <div class="painel-cabecalho">
+            <h3>Trocas Pendentes</h3>
+            <p>3</p>
+        </div>
+    </div>
+
+     <div class="troca">
+              <p><strong>Dr. Marcos</strong> quer trocar com <strong>Dr. Rafael</strong></p>
+              <small>UTI - 15 Jun - 07h as 19h</small>
+              <div class="troca-botoes">
+                <button class="btn btn-sm btn-success">Aprovar</button>
+                <button class="btn btn-sm btn-outline-danger">Rejeitar</button>
+              </div>
+            </div>
+ 
+            <div class="troca">
+              <p><strong>Dra. Alana</strong> quer trocar com <strong>Dra. Julia</strong></p>
+              <small>Pronto-Socorro - 16 Jun - 19h as 07h</small>
+              <div class="troca-botoes">
+                <button class="btn btn-sm btn-success">Aprovar</button>
+                <button class="btn btn-sm btn-outline-danger">Rejeitar</button>
+              </div>
+            </div>
+ 
+            <div class="troca">
+              <p><strong>Dr. Leonardo</strong> quer trocar com <strong>Dr. Marcos</strong></p>
+              <small>UTI - 18 Jun - 19h as 07h</small>
+              <div class="troca-botoes">
+                <button class="btn btn-sm btn-success">Aprovar</button>
+                <button class="btn btn-sm btn-outline-danger">Rejeitar</button>
+              </div>
+            </div>
+          </div>
+
+            <div class="painel">
+            <div class="painel-cabecalho">
+              <h3>Mural de Avisos</h3>
+              <a href="#" class="btn btn-sm btn-outline-primary">+ Aviso</a>
+            </div>
+ 
+            <div class="aviso aviso-urgente">
+              <strong>Urgente:</strong> UTI com capacidade reduzida amanha. Acionar escala extra.
+              <div class="aviso-data">Hoje, 10:32</div>
+            </div>
+ 
+            <div class="aviso">
+              Reuniao de revisao de escala mensal - 20 Jun, 14h, Sala de Reunioes.
+              <div class="aviso-data">Ontem, 16:00</div>
+            </div>
+ 
+            <div class="aviso">
+              Lembrete: enviar carteira CREMEPE até 25/06 para novos plantonistas.
+              <div class="aviso-data">12 Jun, 09:15</div>
+            </div>
+          </div>
+ 
+        </div>
+      </div>
+    </div>
+
+    <footer class="footer">
+    <div class="container">
+
+        <div class="row">
+
+            <!-- Logo e descrição -->
+            <div class="col-md-4">
+                <h2 class="logo-footer">MEDHUB</h2>
+
+                <p>
+                    Soluções que facilitam e otimizam a rotina
+                    dos profissionais da área da saúde.
+                </p>
+            </div>
+
+            <!-- Navegação -->
+            <div class="col-md-3">
+                <h4>Navegue</h4>
+
+                <ul>
+                    <li><a href="index.html">Início</a></li>
+                    <li><a href="somos.html">Quem Somos</a></li>
+                    <li><a href="contato.html">Contato</a></li>
+                </ul>
+            </div>
+
+            <!-- Serviços -->
+            <div class="col-md-3">
+                <h4>Produtos e Serviços</h4>
+
+                <ul>
+                    <a href="servicos.html"><li>MedHub App</li></a>
+                    <a href="servicos.html"><li>MedHub Vagas</li></a>
+                    <a href="servicos.html"><li>MedHub Contabilidada</li></a>
+                </ul>
+            </div>
+
+            <!-- Contato -->
+            <div class="col-md-2">
+                <h4>Contato</h4>
+
+                <p>(83) 99999-9999</p>
+                <p>contato@medhub.com</p>
+
+                <h4>Redes Sociais</h4>
+                <p>Instagram - MedHub</p>
+                <p>X - MedHub</p>
+                <p>Tiktok - MedHub</p>
+            </div>
+
+        </div>
+
+        <hr>
+
+        <div class="text-center">
+            <p>© 2026 MEDHUB</p>
+        </div>
+
+    </div>
+</footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
+
+
+</div>
+    
+</body>
+</html>
