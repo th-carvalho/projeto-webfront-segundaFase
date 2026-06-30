@@ -1,0 +1,266 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB"
+      crossorigin="anonymous"
+    />
+    <title>Contato - MedHub</title>
+  </head>
+  <body>
+
+    <!-- Inicio do Menu -->
+    <nav class="navbar navbar-expand-lg">
+      <div class="container-fluid">
+        <a class="navbar-brand"><img src="img/logotipo.png" alt=""></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link" href="index.html">Inicio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="somos.html">Quem somos</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Serviços
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Med Hub - App</a></li>
+                <li><a class="dropdown-item" href="#">Med Hub - Vagas</a></li>
+                <li><hr class="dropdown-divider"></li>
+                <li><a class="dropdown-item" href="#">Med Hub - Contabilidade</a></li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" aria-disabled="true" href="contato.html">Contato</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- Final do Menu -->
+
+    <!-- Frase Contato -->
+
+
+<img src="img/contato.png"
+     class="img-fluid w-100"
+     style="height:220px; object-fit:cover;">
+
+<!-- Final da frase Contato -->
+
+
+<!-- Inicio formulario -->
+
+<section class="container py-5">
+    <div class="row align-items-center">
+
+        <!-- Lado esquerdo (frase e bordas com emoji) -->
+        <div class="col-lg-5 mb-5 mb-lg-0">
+
+            <h1 class="fw-bold display-5">Vamos conversar?</h1>
+
+            <p class="text-muted mt-3">
+                Preencha o formulário com seus dados e breve nosso consultor entrará em contato.
+            </p>
+                <!-- borda -->
+            <div class="d-flex align-items-center mt-4">
+                <div class="border border-success rounded p-3 me-3">
+                    📱
+                </div>
+                 
+                <h4 class="mb-0">(83) 998465707</h4>
+            </div>
+                <!-- borda -->
+            <div class="d-flex align-items-center mt-4">
+                <div class="border border-success rounded p-3 me-3">
+                    ✉️
+                </div>
+                <!-- frase naa mesma linha do emoji -->
+                <h4 class="mb-0">contato@medhub.com</h4>
+            </div>
+
+        </div>
+
+        <!-- Lado direito  (formulario) -->
+        <div class="col-lg-7">
+
+            <form>
+
+                <input type="text" class="form-control mb-3" placeholder="Nome">
+
+                <div class="row">
+                    <div class="col-md-6 mb-3">
+                        <input type="text" class="form-control" placeholder="(DDD) + WhatsApp">
+                    </div>
+
+                    <div class="col-md-6 mb-3">
+                        <input type="email" class="form-control" placeholder="E-mail">
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-md-6 mb-3">
+                        <input type="text" class="form-control" placeholder="Qual sua profissão?">
+                    </div>
+
+                    <div class="col-md-6 mb-3">
+                        <select class="form-select">
+                            <option>Você é médico residente?</option>
+                            <option>Sim</option>
+                            <option>Não</option>
+                        </select>
+                    </div>
+                </div>
+
+                <textarea class="form-control mb-3" rows="4"
+                    placeholder="Nos conte como você pretende atuar com seu CNPJ?"></textarea>
+
+                 <a href="obrigado.html" class="btn btn-primary mt-3">Enivar</a>
+
+            </form>
+
+        </div>
+
+    </div>
+</section>
+
+<!-- Fim formulario -->
+
+<!--Inicio FAQ-->
+ 
+<section class="container py-5">
+ 
+    <h2 class="text-center mb-4">Perguntas Frequentes</h2>
+ 
+    <div class="accordion" id="accordionFaq">
+ 
+        <div class="accordion-item">
+            <h3 class="accordion-header">
+                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#faq1">
+                    Como funciona o cadastro como profissional?
+                </button>
+            </h3>
+            <div id="faq1" class="accordion-collapse collapse show" data-bs-parent="#accordionFaq">
+                <div class="accordion-body">
+                    O cadastro é gratuito e leva poucos minutos. Basta preencher o formulário acima
+                    com seus dados profissionais que um consultor entrará em contato para liberar seu acesso.
+                </div>
+            </div>
+        </div>
+ 
+        <div class="accordion-item">
+            <h3 class="accordion-header">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq2">
+                    Quais hospitais já usam o MedHub?
+                </button>
+            </h3>
+            <div id="faq2" class="accordion-collapse collapse" data-bs-parent="#accordionFaq">
+                <div class="accordion-body">
+                    O MedHub já está presente em mais de 50 mil hospitais e clínicas parceiras
+                    em todo o Brasil, conectando profissionais e instituições da área da saúde.
+                </div>
+            </div>
+        </div>
+ 
+        <div class="accordion-item">
+            <h3 class="accordion-header">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq3">
+                    O sistema tem custo para o profissional?
+                </button>
+            </h3>
+            <div id="faq3" class="accordion-collapse collapse" data-bs-parent="#accordionFaq">
+                <div class="accordion-body">
+                    Não. O acesso para profissionais de saúde é totalmente gratuito.
+                    Os planos pagos do MedHub são voltados para a gestão das instituições.
+                </div>
+            </div>
+        </div>
+ 
+        <div class="accordion-item">
+            <h3 class="accordion-header">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq4">
+                    Como funciona a troca de turno entre profissionais?
+                </button>
+            </h3>
+            <div id="faq4" class="accordion-collapse collapse" data-bs-parent="#accordionFaq">
+                <div class="accordion-body">
+                    Direto no painel do profissional, você escolhe o plantão que deseja repassar
+                    e seleciona um colega disponível. A solicitação é enviada para aprovação do
+                    gestor responsável pelo setor.
+                </div>
+            </div>
+        </div>
+ 
+    </div>
+ 
+</section>
+ 
+<!--Fim do FAQ-->
+
+
+<!-- inicio rodape site -->
+
+    <footer class="footer">
+      <div class="container">
+        <div class="row">
+
+          <!-- Logo e descrição -->
+          <div class="col-md-4">
+            <h2 class="logo-footer">MEDHUB</h2>
+            <p>Soluções que facilitam e otimizam a rotina dos profissionais da área da saúde.</p>
+          </div>
+
+          <!-- Navegação -->
+          <div class="col-md-3">
+            <h4>Navegue</h4>
+            <ul>
+              <li><a href="index.html">Início</a></li>
+              <li><a href="somos.html">Quem Somos</a></li>
+              <li><a href="#">Contato</a></li>
+              <li><a href="#">Blog</a></li>
+            </ul>
+          </div>
+
+          <!-- Serviços -->
+          <div class="col-md-3">
+            <h4>Produtos e Serviços</h4>
+            <ul>
+              <li>Medhub App</li>
+              <li>MedHub Contabilidade</li>
+              <li>MedHub Vagas</li>
+            </ul>
+          </div>
+
+          <!-- Contato -->
+          <div class="col-md-2">
+            <h4>Contato</h4>
+            <p>(83) 998465707</p>
+            <p>contato@medhub.com</p>
+            <h4>Redes Sociais</h4>
+            <p>Instagram - MedHub</p>
+          </div>
+
+        </div>
+
+        <hr>
+
+        <div class="text-center">
+          <p>© 2026 MEDHUB</p>
+        </div>
+
+      </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
